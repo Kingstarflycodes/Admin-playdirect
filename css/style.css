@@ -23,11 +23,12 @@ a {
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0.8rem 1rem;
 }
 .head {
   display: flex;
-  margin-left: -1rem;
+  /* margin-left: -1rem; */
   transition: all 0.3s ease-in-out;
 }
 .head.active {
@@ -37,7 +38,7 @@ header{
   width: 42%;
   margin: 0;
 }
-#close {
+/* #close {
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
@@ -45,16 +46,35 @@ header{
   font-size: 1.5rem;
   visibility: visible;
   cursor: pointer;
-}
+} */
 .head-title {
     letter-spacing: 1px;
+    font-size: 2rem;
 }
-header .right {
-    display: flex;
-    gap:0.5rem;
-}
+
 header img{
     width: 28px;
     cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-text {
+  font-size: 1.5rem;
+  margin: .3rem 0;
+}
+
+.dash-menu {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin: 1rem 0;
+  border: 1px solid rgb(202, 202, 202);
+  padding: .5rem;
+  border-radius: .5rem;
 }
 }
