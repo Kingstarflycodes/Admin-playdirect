@@ -49,7 +49,7 @@ header{
 } */
 .head-title {
     letter-spacing: 1px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 header img{
@@ -64,7 +64,7 @@ header img{
 }
 
 .dashboard-text {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   margin: .3rem 0;
 }
 
@@ -115,6 +115,11 @@ header img{
   font-size: 2.5rem;
   font-weight: bolder;
   color: #329932;
+  transition: all .2s ease-in-out;
+}
+
+.add-product:hover {
+  color: #63ce63;
 }
 
 .product-cont {
