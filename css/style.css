@@ -140,16 +140,17 @@ header img{
 }
 
 .product-details {
+  margin: .3rem 0 0 .3rem;
   width: 14rem;
 }
 
 .product-details .name {
-  font-size: .9rem;
+  font-size: .8rem;
   font-weight: bolder;
 }
 
 .product-details .desc {
-  font-size: .7rem;
+  font-size: .6rem;
   opacity: .5;
 }
 
